@@ -1,0 +1,130 @@
+.right {
+   margin: 0 auto;
+
+   h1 {
+      margin-top: 50px;
+      font-size: 25px;
+   }
+}
+
+.folder {
+   position: absolute;
+
+   border-radius: 5px;
+   background-color: #0f0f0f;
+   box-shadow: 10px 10px 1px #0000000d;
+   border: 1px solid #2da199;
+
+   animation: animWindow 0.8s cubic-bezier(0.19, 1, 0.22, 1);
+
+   &__top {
+      z-index: 100;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 35px;
+      width: 100%;
+      padding: 0 15px;
+
+      font-size: 15px;
+      border-radius: 5px 5px 0 0;
+      background-color: lighten($color: #0f0f0f, $amount: 2.5);
+      border-bottom: 1px solid #2da199;
+
+      &__name {
+         width: auto;
+         height: 35px;
+         display: flex;
+         align-items: center;
+
+         label {
+            margin-left: 10px;
+         }
+      }
+
+      &__draggable {
+         position: static;
+         width: 100%;
+         text-align: center;
+         color: transparent;
+         user-select: none;
+         cursor: grab;
+
+         &:active {
+            cursor: grabbing;
+         }
+      }
+
+      &__close {
+         width: 10px;
+         text-align: center;
+      }
+   }
+
+   &__bottom {
+      display: flex;
+
+      &__file {
+         margin: 20px;
+      }
+
+      &__image {
+         display: block;
+         margin: 0 auto;
+         width: auto;
+      }
+
+      &__txt {
+         text-align: center;
+      }
+   }
+}
+
+@media (max-width: 768px) {
+   .right {
+      width: 100%;
+      height: 75%;
+      padding: 5%;
+
+      h1 {
+         display: none;
+      }
+   }
+
+   .folder {
+      &__top {
+         &__draggable {
+            display: none;
+         }
+      }
+
+      &__bottom {
+         display: flex;
+         flex-wrap: wrap;
+         flex-direction: row;
+         justify-content: space-evenly;
+         padding: 20px;
+
+         &__image {
+            height: 35px;
+         }
+      }
+   }
+}
+
+@media (max-width: 575px) {
+   .folder__bottom__txt {
+      font-size: 12px;
+   }
+}
+
+@media (max-width: 380px) {
+   .folder {
+      &__bottom {
+         padding: 10px;
+         &__file {
+            margin: 10px 5px;
+         }
+      }
+   }
+}
