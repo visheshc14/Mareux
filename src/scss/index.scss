@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;400;700&display=swap');
+
+@import 'left';
+@import 'right';
+@import 'projects';
+@import 'header';
+@import 'about';
+// b31c1c
+body {
+   margin: 0;
+   overflow: hidden !important;
+
+   color: #2da199;
+   background: no-repeat linear-gradient(180deg, #000000 70%, #00423e);
+
+   font-family: 'Roboto Mono', monospace;
+   font-size: 15px;
+}
+
+*,
+*::before,
+*::after {
+   box-sizing: border-box;
+}
+
+h1 {
+   margin: 0;
+}
+
+a {
+   color: #2da199;
+}
+
+.container {
+   display: flex;
+   height: 97vh;
+}
+
+.rotate {
+   display: none;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   padding: 50px;
+   width: 100%;
+   height: 100vh;
+   position: fixed;
+   left: 0;
+   top: 0;
+   z-index: 500;
+
+   background-color: #000;
+
+   h1 {
+      text-align: center;
+      font-size: 25px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   }
+}
+
+@keyframes animWindow {
+   0% {
+      transform: translateX(100%);
+   }
+}
+
+@media (max-width: 768px) {
+   .container {
+      flex-direction: column-reverse;
+   }
+   .iframe {
+      display: none;
+   }
+}
+
+@media (max-width: 575px), screen and (max-height: 575px) {
+   .rotate {
+      display: flex;
+   }
+}
+
+@media (max-width: 575px), screen and (orientation: portrait) {
+   .rotate {
+      display: none;
+   }
+}
