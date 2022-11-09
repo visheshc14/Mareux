@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Mareux/static/css/main.0b37af9d.chunk.css",
+    "main.js": "/Mareux/static/js/main.c9842fd7.chunk.js",
+    "main.js.map": "/Mareux/static/js/main.c9842fd7.chunk.js.map",
+    "runtime-main.js": "/Mareux/static/js/runtime-main.a89aa580.js",
+    "runtime-main.js.map": "/Mareux/static/js/runtime-main.a89aa580.js.map",
+    "static/js/2.3e5fcf7e.chunk.js": "/Mareux/static/js/2.3e5fcf7e.chunk.js",
+    "static/js/2.3e5fcf7e.chunk.js.map": "/Mareux/static/js/2.3e5fcf7e.chunk.js.map",
+    "index.html": "/Mareux/index.html",
+    "precache-manifest.f2102c032c068644a66315f7f2f1d7ad.js": "/Mareux/precache-manifest.f2102c032c068644a66315f7f2f1d7ad.js",
+    "service-worker.js": "/Mareux/service-worker.js",
+    "static/css/main.0b37af9d.chunk.css.map": "/Mareux/static/css/main.0b37af9d.chunk.css.map",
+    "static/js/2.3e5fcf7e.chunk.js.LICENSE.txt": "/Mareux/static/js/2.3e5fcf7e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a89aa580.js",
+    "static/js/2.3e5fcf7e.chunk.js",
+    "static/css/main.0b37af9d.chunk.css",
+    "static/js/main.c9842fd7.chunk.js"
+  ]
+}
