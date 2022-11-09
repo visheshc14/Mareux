@@ -1,0 +1,118 @@
+.left {
+   width: 15%;
+   background: no-repeat linear-gradient(180deg, #000000 70%, #070707);
+   text-align: center;
+   border-right: 1px solid #2da199;
+
+   &__content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+   }
+
+   h1 {
+      margin-top: 50px;
+      margin-bottom: 100px;
+      font-size: 25px;
+   }
+
+   &__files {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 10px 0;
+      width: 100px;
+      height: 100px;
+
+      &:hover {
+         border: 1px solid #2da199;
+         background-color: #000000;
+         cursor: pointer;
+      }
+
+      &:active {
+         transform: scale(1.02);
+      }
+
+      span {
+         color: inherit;
+         text-align: center;
+      }
+   }
+}
+
+@media (max-width: 768px) {
+   .left {
+      z-index: 100;
+      width: 100%;
+      height: 25%;
+
+      h1 {
+         display: none;
+      }
+
+      &__content {
+         flex-direction: row;
+         justify-content: space-between;
+         padding-left: 50px;
+         padding-right: 50px;
+         padding-bottom: 50px;
+         padding-top: 20px;
+         height: 100%;
+      }
+
+      &__files {
+         &:hover {
+            border: 1px solid transparent;
+            background-color: transparent;
+            cursor: pointer;
+         }
+
+         &:active {
+            &:hover {
+               border: 1px solid rgba(33, 128, 165, 0.8);
+               background-color: rgba(52, 135, 168, 0.6);
+               cursor: pointer;
+            }
+         }
+
+         span {
+            font-size: 18px;
+         }
+      }
+   }
+}
+
+@media (max-width: 575px) {
+   .left {
+      &__files {
+         width: 75px;
+         height: 75px;
+         margin: 0;
+
+         span {
+            font-size: 14px;
+         }
+
+         svg {
+            width: 30px;
+            height: 30px;
+         }
+      }
+   }
+}
+
+@media (max-width: 385px) {
+   .left {
+      &__content {
+         padding: 30px 20px;
+         height: 100%;
+      }
+
+      &__files {
+         margin: 5px 0;
+      }
+   }
+}
