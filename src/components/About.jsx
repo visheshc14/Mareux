@@ -34,7 +34,7 @@ function About({ onClose }) {
                </p>
                <div className="folder__bottom__file">
                   <a
-                     href="https://visheshchoudhary.com/static/Vishesh-Resume.pdf"
+                     href="https://www.visheshchoudhary.com/static/Vishesh-Resume.pdf"
                      rel="noopener noreferrer"
                      target="_blank">
                      <svg
