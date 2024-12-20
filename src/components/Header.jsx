@@ -4,7 +4,7 @@ function Header() {
    return (
       <header className="header">
          <div>MAREUX</div>
-         <div>2022</div>
+         <div>2024</div>
       </header>
    );
 }
