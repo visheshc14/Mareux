@@ -23,7 +23,7 @@ function Projects({ onClose }) {
 
             <div className="folder__bottom">
                <div className="folder__bottom__file">
-                  <a title="all projects" href="https://visheshchoudhary.tech/" rel="noopener noreferrer" target="_blank">
+                  <a title="all projects" href="https://visheshchoudhary.com/" rel="noopener noreferrer" target="_blank">
                      <svg
                         className="folder__bottom__image"
                         xmlns="http://www.w3.org/2000/svg"
