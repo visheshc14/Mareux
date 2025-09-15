@@ -24,7 +24,7 @@ function About({ onClose }) {
             <div className="about__content">
                <p>Hello T̸̨̥̩̘͚̙̩̭̈́̿͑͜͝h̷͉͖͋̔̎͑͑̈́e̴̮͉̖̊͊̓̽̾̐͆͐͝r̶̬̍̏̋̏͑͒̌́ͅé̶͉͝!̸̺͉̲̚</p>
                <p>
-                  Hello, I'm Vishesh an Integrated M.Tech. Postgraduate From Vellore Institute of Technology, Vellore, Where I Focused My Research on Security and Privacy Challenges in Distributed Machine Learning Systems.
+                 Hello, I'm Vishesh, an M.Tech. Postgraduate from VIT Vellore, Focused on Security and Privacy in Distributed Machine Learning.
                </p> 
                <p>
                   There are Two Ways of Constructing a Software Design. One Way is to Make it so Simple That There are Obviously No Deficiencies, And The Other Way is to Make it so Complicated That There are No Obvious Deficiencies.                      
