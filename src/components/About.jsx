@@ -25,6 +25,7 @@ function About({ onClose }) {
                <p>Hello T̸̨̥̩̘͚̙̩̭̈́̿͑͜͝h̷͉͖͋̔̎͑͑̈́e̴̮͉̖̊͊̓̽̾̐͆͐͝r̶̬̍̏̋̏͑͒̌́ͅé̶͉͝!̸̺͉̲̚</p>
                <p>
                   Hello, I'm Vishesh an Integrated M.Tech. Postgraduate From Vellore Institute of Technology, Vellore, Where I Focused My Research on Security and Privacy Challenges in Distributed Machine Learning Systems.
+               </p> 
                <p>
                   There are Two Ways of Constructing a Software Design. One Way is to Make it so Simple That There are Obviously No Deficiencies, And The Other Way is to Make it so Complicated That There are No Obvious Deficiencies.                      
                </p>
