@@ -28,7 +28,7 @@ function App() {
             />
 
             <div className="right">
-               <h1>o̶̪̳̠̔̄̄̊̿̈́̋͘͠p̵̢̙̺̜͍͆e̴̩͈͇̘̾̆͊̊̏͌n̸̟͙̗͈̞̾̌́͜e̶̢̧̿̋͐̌̀d̶̡̳̙̊̅̇̆̆̂͝ ̶̢̧̩̳̞͚̆͝f̶̺̱̱̀ȋ̵̲̲̐̀̀̎̕͘͜͠͝l̶̳̘̀̅͒̇̀̈́͐e̵̢̖̲͊ͅ</h1>
+               <h1>ơ̴͂̈́ṕ̶̀̀e̴͗͊n̸̿̕ë̶́͝d̴̏̚ ̶͛͘f̷͐͌i̶͋͋l̵͆͐è̷͐</h1>
                {visible === 'Projects' ? (
                   <Projects onClose={onClickClose} />
                ) : visible === 'About' ? (
