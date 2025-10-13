@@ -1,5 +1,5 @@
 # Mareux 
-Frontend Experimentation - Responses to Divisions.  
+Mareux is a Digital Moodboard Turned Portfolio — An Experimental Interface Where Movement, Minimalism, and Atmosphere Converge. Designed to Feel More Like an Experience Than a Website. 
 
 https://user-images.githubusercontent.com/36515357/200674142-9beab95f-3f85-4f5a-ba9c-43e90a6586e0.MOV
 
